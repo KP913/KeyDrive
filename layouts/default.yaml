@@ -1,0 +1,49 @@
+layers:
+  base:
+    #key_a: "\n"
+    key_b: 'b'
+    # key_c: '©'
+    #key_d: '∂'
+    #key_e: '∑'
+    key_f: '∫'
+    key_g: 'γ'
+    key_h: '?'
+    key_i: '∞'
+    key_j: '∆'
+    key_k: '∇'
+    key_l: 'λ'
+    key_m: 'µ'
+    key_n: '≠'
+    key_o: 'Ω'
+    key_p: 'r'
+    key_q: 'θ'
+    #key_r: 'ρ'
+    #key_s: 'σ'
+    key_t: 'τ'
+    key_u: 'υ'
+    key_v: 'φ'
+    #key_w: 'ω'
+    key_x: 'χ'
+    key_y: 'ψ'
+    key_z: 'ζ'
+    # Add critical keys
+    key_enter: "\n"
+    key_space: " "
+    key_backspace: "\b"
+    key_tab: "\t"
+    key_esc: "\x1b"
+  symbols:
+    key_1: '!'
+    key_2: '@'
+    key_3: '€'
+    key_4: '∞'
+    key_5: '°'
+    key_6: '²'
+    key_7: '³'
+    key_8: '×'
+    key_9: '÷'
+    key_0: '≠'
+layer_switches:
+  key_rightalt: symbols
+  key_leftalt: base  # Return to base layer
+

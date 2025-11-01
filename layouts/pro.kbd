@@ -1,0 +1,57 @@
+# Physical key positions (top-to-bottom, left-to-right)
+source: [
+  key_grave,	key_1,	key_2,	key_3,	key_4,	key_5,	key_6,	key_7,	key_8,	key_9,		key_0,		key_minus,	key_equal,	key_backspace,
+  key_tab,	key_q,	key_w,	key_e,	key_r,	key_t,	key_y,	key_u,	key_i,	key_o,		key_p,		key_leftbrace,	key_rightbrace,
+  key_capslock,	key_a,	key_s,	key_d,	key_f,	key_g,	key_h,	key_j,	key_k,	key_l,		key_semicolon,	key_apostrophe,	key_backslash,	key_enter,
+  key_leftshift,	key_102nd,	key_z,	key_x,	key_c,	key_v,	key_b,	key_n,	key_m,	key_comma,	key_dot,	key_slash,	key_rightshift,
+  key_leftctrl,	key_leftmeta,	key_leftalt,			key_space,			key_rightalt,		key_menu,	key_rightctrl
+  ]
+
+layers:
+ base: [
+  	"0",	"1",	"2",	"3",	"4",	"5",	"6",	"7",	"8",	"9",	"=",	"º",	"",
+  "{",	"b",	".",	"h",	"f",	"ly3",	"ly4",	"w",	"r",	"y",	"m",	"(",	")",
+  "ly2","u",	"i",	"o",	"e",	"\b",	",",	"a",	"s",	"t",	"ly1",	"\n",	"",	"",
+  "",	"\t",	"g",	"/",	"n",	'd',	'"',	"l",	"c",	"p",	"<",	"!",	"ly2",
+  "",	"",	"",				" ",				"",		"",	""
+  ]
+  
+ shifted: [
+  	"!",	'"',	"#",	"$",	"%",	"&",	"/",	"(",	")",	"=",	"?",	"»",	"\b",
+  "\t",	"Q",	"W",	"E",	"R",	"T",	"Y",	"U",	"I",	"O",	"P",	"*",	"`",
+  "",	"A",	"S",	"D",	"F",	"G",	"H",	"J",	"K",	"L",	"Ç",	"ª",	"^",	"\n",
+  "",	">",	"Z",	"X",	"C",	"V",	"B",	"N",	"M",	";",	":",	"_",	"",
+  "",	"",	"",				" ",				"",		"",	""
+  ]
+  
+ symbols: [
+  	"!",	'"',	"#",	"$",	"%",	"&",	"/",	"(",	")",	"=",	"?",	"»",	"\b",
+  "\t",	"Q",	"W",	"E",	"R",	"T",	"Y",	"U",	"I",	"O",	"P",	"*",	"`",
+  "",	"î",	"S",	"D",	"F",	"G",	"H",	"J",	"K",	"L",	"Ç",	"ª",	"^",	"\n",
+  "",	">",	"Z",	"X",	"C",	"V",	"B",	"N",	"M",	";",	":",	"_",	"",
+  "",	"",	"",				" ",				"",		"",	""
+  ]
+ 
+ acute: [
+  	"",	"",	"",	"",	"",	"",	"",	"",	"",	"",	"",	"",	"",
+  "",	"",	"",	"é",	"",	"",	"",	"",	"",	"",	"",	"",	"´",	
+  "",	"á",	"",	"",	"",	"",	"",	"",	"",	"",	"",	"",	"",	"",
+  "",	"",	"",	"",	"",	"",	"",	"",	"",	"",	"",	"",	"",	
+  "",	"",	"",				"",				"",		"",	"",
+ ]
+
+layer_keys:
+  base:
+    default: true
+  
+  shifted:
+    key: ly2
+    type: hold
+
+  symbols:
+    key: ly3
+    type: toggle
+
+  acute:
+    key: ly1
+    type: onetime
